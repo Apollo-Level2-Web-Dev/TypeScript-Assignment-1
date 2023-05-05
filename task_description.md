@@ -1,13 +1,6 @@
 
-## Problem 1
 
-**Array and Tuple types**
-
-Create a TypeScript program that declares an array of strings and a tuple of a number and a string. Add elements to both data structures, and log them to the console.
-
----
-
-## **Problem 2**
+## **Problem 1**
 
 **Functions and Default Parameters**
 
@@ -15,29 +8,20 @@ Create a TypeScript program that declares a function that takes two parameters, 
 
 ---
 
-## Problem 3
+## Problem 2
 
 Declare an interface for a `person` with properties `name` and `age`, then create a generic function that takes an array of persons and a second parameter of type T, and returns a new array with only the elements of the first array that are of type T. Call the function with an array of persons and a specific type to filter by.
 
 ---
 
-## **Problem 4:**
+## **Problem 3:**
 
 Create a TypeScript program that uses a generic function to reverse an array of strings, then use a rest parameter to add a variable number of strings to the array, and call the function with the combined array.
 
 ---
 
-## **Problem 5:**
 
-Create a TypeScript program that uses a conditional type to create a new type that is either a string or a number, depending on whether a parameter of type string or number is passed to the function. 
-
-Then, create an interface for a person with properties name and age, and use the new type as a constraint on the age property. 
-
-Finally, create an object that satisfies the Person interface and log it to the console.
-
----
-
-## **Problem6:**
+## **Problem 4:**
 
 Create a TypeScript class called `Person` that has private properties name and age, and a public method getDetails that returns a string with the person's name and age. Use parameter properties to define and initialize the properties in the constructor.
 
@@ -47,7 +31,7 @@ Create a TypeScript class called `Student` that extends the Person class and has
 
 ---
 
-## **Problem7:**
+## **Problem 5:**
 
 Create a TypeScript function that takes a parameter of type unknown and uses a type guard to check whether the parameter is of type string. If it is, log the string to the console. If it is not, log an error message.
 
@@ -55,12 +39,37 @@ Create a TypeScript function that takes a parameter of type unknown and uses a t
 ## **Interview Questions**
 
 1. What is TypeScript, and how is it different from JavaScript?
-1. Can you explain the difference between "interface" and "type" in TypeScript?
-1. Can you give an example of how to use generics in TypeScript?
-1. What is the difference between an "unknown" and "any" type in TypeScript?
-1. Can you give an example of how to use enums in TypeScript?
+2. Can you explain the difference between "interface" and "type" in TypeScript?
+3. Can you give an example of how to use generics in TypeScript?
+4. What is the difference between an "unknown" and "any" type in TypeScript?
+5. Can you give an example of how to use enums in TypeScript?
+7. What is the "as" keyword used for in TypeScript?
+10. Can you explain how to use "type guards" with "in" and "typeof" operators in TypeScript?
+
+
+
+
+# Optional Problems: 
+
+## optional Problem 1
+
+**Array and Tuple types**
+
+Create a TypeScript program that declares an array of strings and a tuple of a number and a string. Add elements to both data structures, and log them to the console.
+
+---
+
+## **Optional Problem 2:**
+
+Create a TypeScript program that uses a conditional type to create a new type that is either a string or a number, depending on whether a parameter of type string or number is passed to the function. 
+
+Then, create an interface for a person with properties name and age, and use the new type as a constraint on the age property. 
+
+Finally, create an object that satisfies the Person interface and log it to the console.
+
+---
+
+## Optional Questions: 
 1. Can you explain what a "tuple" is in TypeScript?
-1. What is the "as" keyword used for in TypeScript?
-1. Can you give an example of how to use "readonly" properties in TypeScript?
-1. Can you give an example of how to use "conditional types" in TypeScript?
-1. Can you explain how to use "type guards" with "in" and "typeof" operators in TypeScript?
+2. Can you give an example of how to use "readonly" properties in TypeScript?
+3. Can you give an example of how to use "conditional types" in TypeScript?
