@@ -8,10 +8,9 @@ Create a TypeScript program that declares a function that takes two parameters, 
 
 ---
 
-## Problem 2
+## Problem 2  🧨🧨
 
-Declare an interface for a `person` with properties `name` and `age`, then create a generic function that takes an array of persons and a second parameter of type T, and returns a new array with only the elements of the first array that are of type T. Call the function with an array of persons and a specific type to filter by.
-
+Write a function that takes in an array of objects with properties `name` and `age`, and returns only the objects where the person's age is greater than or equal to 18,
 ---
 
 ## **Problem 3:**
