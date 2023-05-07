@@ -16,7 +16,7 @@ Declare an interface for a `person` with properties `name` and `age`, then creat
 
 ## **Problem 3:**
 
-Create a TypeScript program that uses a generic function to reverse an array of strings, then use a rest parameter to add a variable number of strings to the array, and call the function with the combined array.
+Create a TypeScript program that uses a generic function to reverse an array of strings, and takes a variable number of strings to the array using rest parameters. Provide an example of calling the function with a variable number of strings.
 
 ---
 
